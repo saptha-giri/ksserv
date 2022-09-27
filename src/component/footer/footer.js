@@ -5,7 +5,7 @@ import './footer.css';
 const Footer = (props)=>{
     return(
         <div className="footer">
-            <p>© 2020 by ksserv</p>
+            <p>© 2022 by ksserv</p>
         </div>
     );
 }

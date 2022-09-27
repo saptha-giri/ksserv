@@ -2,7 +2,7 @@
 .contactContainer{
     display: flex;
     flex: 1;
-    /*height:75vh;*/
+    height:80vh;
     /*background-color: #f0f0f0; */
 }
 
@@ -17,7 +17,6 @@
 .details-container{
     display: flex;
     justify-content: center;
-    flex:1;
     width:70%;
     border: 1px solid #FFB53C;
     border-radius: 2px;

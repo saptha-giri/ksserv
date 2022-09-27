@@ -1,7 +1,7 @@
 .hseContainer{
     display: flex;
-    flex: 1;
-    /*height:60vh;*/
+    /* flex: 1; */
+    height:99vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -12,7 +12,7 @@
 
 .hseContentContainer{
     display: flex;
-    flex:1;
+    /* flex:1; */
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;

@@ -1,8 +1,8 @@
 
 .aboutContainer{
     display: flex;
-    flex: 1;
-    /*height:80vh;*/
+    /* flex: 1; */
+    height:99vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -13,13 +13,13 @@
 
 .aboutContentContainer{
     display: flex;
-    flex:1;
+    /* flex:1; */
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 180px;
-    margin-top: 20px;
-    /*width: 100vw;*/
+    /* margin-bottom: 180px;
+    margin-top: 20px; */
+    /* width: 99vw; */
 }
 
 .aboutLeftContainer{
@@ -83,7 +83,7 @@
     position:absolute;
     left:0;right:0;top:100%;
     padding:5px 1em 0;
-        display:block;
+    display:block;
     text-align:center;
     content:attr(title);
     word-wrap: break-word;

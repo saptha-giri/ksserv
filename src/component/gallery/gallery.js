@@ -22,13 +22,13 @@ import img15 from '../../assets/KS Gallery/15.jpg';
 
 const Gallery = (props)=>{
 	return(
-		<div className="grid-container section">
+		<div className="grid-container section" id={props.id}>
 			<div className="mobile-grid">
 				<div className="full-width-container over-effect">
 					<img alt="hairCare" className='image-style' src={img1} />
 				</div>
 			</div>
-            <div className="section-content galleryHeader" id={props.id}>
+            <div className="section-content galleryHeader" >
             <h1>Gallery</h1>
             </div>
 			<div className="grid-inner-container">

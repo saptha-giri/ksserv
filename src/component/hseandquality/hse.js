@@ -4,13 +4,13 @@ import './hse.css';
 
 const Hse = (props)=>{
     return(
-        <div className="hseContainer section">
-            <div className="hseContentContainer section-content" id={props.id}>
-                <h1>HSE & Quality</h1>
+        <div className="hseContainer section" id={props.id}>
+            <div className="hseContentContainer section-content">
+                <h1>HSE &amp; Quality</h1>
                 <div>
                     <h3>HSE</h3>
                     <ul>
-                        <li>KS SERVICES Management demonstrates its commitment by integrating Health, Safety and Environment into its strategic level decisions. The holistic theme of Safety Management is developed logically and systematically, the functional operation of the company is examined in well-structured Safety Management attributes and elements. Risk quantification and control strategy formulation addressed competently. The human resource essentials for Safety Management are thoughtfully  presented through Guiding Principles -Commitment, Organization, Accountability, Management System and Standards, Risk Management, Legal and other Requirement Compliance, Training, Environmental Aspects, Continual Improvement, Monitor and Audit and Review</li>
+                        <li>KS SCM Management demonstrates its commitment by integrating Health, Safety and Environment into its strategic level decisions. The holistic theme of Safety Management is developed logically and systematically, the functional operation of the company is examined in well-structured Safety Management attributes and elements. Risk quantification and control strategy formulation addressed competently. The human resource essentials for Safety Management are thoughtfully  presented through Guiding Principles -Commitment, Organization, Accountability, Management System and Standards, Risk Management, Legal and other Requirement Compliance, Training, Environmental Aspects, Continual Improvement, Monitor and Audit and Review</li>
                     </ul>
 
                     <p>Commitment</p>

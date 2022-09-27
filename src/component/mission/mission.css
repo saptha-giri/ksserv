@@ -1,10 +1,10 @@
 .missionContainer{
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     justify-content: center;
     align-items: center;
 
-    /* height:50vh; */
+    height:99vh;
     background-color: #fff;
 }
 
@@ -30,11 +30,17 @@
     /*width:65vw;*/
 }
 
-.missiLeft{
-    flex:1;
-    width:50%;
-    height: 50%;
+.missiLeft img{
+    /* flex:1; */
+    /* width:50%;
+    height: 50%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 1px solid; */
+    margin-right: 3rem;;
 }
+
 
 .missi{
     /*border: 1px solid #fff;*/

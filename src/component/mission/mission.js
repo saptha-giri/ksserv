@@ -5,8 +5,8 @@ import img from '../../assets/vision.jpg'
 
 const Mission = (props)=>{
     return(
-        <div className="missionContainer section">
-            <div className="section-content missionContent" id={props.id}>
+        <div className="missionContainer section" id={props.id}>
+            <div className="section-content missionContent">
                 <h1>Our Mission & Vision</h1>
 
                 <div className="missions">
@@ -38,7 +38,7 @@ const Mission = (props)=>{
                         </div>
                         <div>
                             <ul className="missi-list">
-                                <li>KS SERVICES, in its quest to be the leader among ETC and SERVICES companies is committed to achieve continual improvement in its products, services and performance to enhance customer satisfaction through improved level of quality and conforming to its contractual obligations and induce quality awareness at all levels of employees by imparting training, improving attitude, enhancing motivation and encouraging total involvement.</li>
+                                <li>KS SCM, in its quest to be the leader among ETC and SERVICES companies is committed to achieve continual improvement in its products, services and performance to enhance customer satisfaction through improved level of quality and conforming to its contractual obligations and induce quality awareness at all levels of employees by imparting training, improving attitude, enhancing motivation and encouraging total involvement.</li>
                             </ul>
                         </div>
 
@@ -47,7 +47,7 @@ const Mission = (props)=>{
                         </div>
                         <div>
                             <ul className="missi-list">
-                                <li>KS SERVICES , is committed to maintain higher standard in occupational Health, Safety and Environment protection even while pursuing quality works and comply with all safety norms, procedures and statutory rules and impart functional responsibility at all levels, educate train and motivate everyone associated with the company to achieve the goal of 'Zero incident'.</li>
+                                <li>KS SCM, is committed to maintain higher standard in occupational Health, Safety and Environment protection even while pursuing quality works and comply with all safety norms, procedures and statutory rules and impart functional responsibility at all levels, educate train and motivate everyone associated with the company to achieve the goal of 'Zero incident'.</li>
                             </ul>
                         </div>
 

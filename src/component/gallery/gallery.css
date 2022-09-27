@@ -3,8 +3,9 @@
 	flex-direction: column;
 	width:90vw;
 	margin: 0px auto;
-	margin-top: 20px;
-	margin-bottom: 110px;
+	padding: 5rem;
+	/* margin-top: 20px;
+	margin-bottom: 110px; */
 }
 
 .grid-inner-container{

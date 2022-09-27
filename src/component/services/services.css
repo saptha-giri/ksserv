@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
 
-    /* height:50vh; */
+    height: 99vh;
     background-color: #fff;
 }
 
@@ -15,8 +15,9 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
 }
 
 .expContent p{
@@ -29,7 +30,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     flex: 1 1;
-    /*width:65vw;*/
+    /* width:65vw; */
 }
 
 .expe{
@@ -43,11 +44,11 @@
 }
 
 .expe-heading{
-    line-height: 5px;
+    /* line-height: 5px; */
 }
 
 .expe-list{
-    line-height: 1.5;
-    /* font-size: .9rem; */
+    line-height: 1.8rem;
+    font-size: 1rem;
     color: #9B9B9B;
 }
