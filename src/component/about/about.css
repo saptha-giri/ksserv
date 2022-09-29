@@ -92,3 +92,15 @@
   @keyframes draw{
     0%{height:0;} 
   }
+
+  .imgStyle{
+    width: 100px;
+  }
+
+  .imgContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+  }
