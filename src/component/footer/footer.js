@@ -5,7 +5,8 @@ import './footer.css';
 const Footer = (props)=>{
     return(
         <div className="footer">
-            <p>© 2022 by ksserv</p>
+            <p>© 2022 by ks scm</p>
+            <p className='powered'>powered by kavi consultancy.</p>
         </div>
     );
 }
