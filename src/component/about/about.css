@@ -2,12 +2,14 @@
 .aboutContainer{
     display: flex;
     /* flex: 1; */
-    height:99vh;
+    /* height:99vh; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
     /*background-color: #f0f0f0; */
      /*border: 1px solid; */
+     border-bottom: 1px solid #000101;
+     padding-bottom: 2rem;
 }
 
 
@@ -104,3 +106,9 @@
     align-items: center;
     margin-top: 5rem;
   }
+
+  /* @media only screen and (max-device-width: 1024px) {
+    .aboutContainer{
+      margin-top: 4rem;
+    }
+  } */

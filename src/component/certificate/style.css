@@ -1,0 +1,27 @@
+.certContainer{
+    /* background-color: rgb(189, 192, 192); */
+}
+
+.cert{
+    height: 800px;
+    width: 600px;
+    /* border: 1px solid; */
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 4px;
+    background-color: rgb(189, 192, 192);
+}
+
+.innerCert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .cert{
+        height: 400px;
+        width: 350px;
+    }
+}

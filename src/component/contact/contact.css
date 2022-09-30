@@ -2,7 +2,7 @@
 .contactContainer{
     display: flex;
     flex: 1;
-    height:80vh;
+    /* height:80vh; */
     /*background-color: #f0f0f0; */
 }
 
@@ -65,4 +65,10 @@
 
 .cDetails p, .form-items p{
     margin-left: 20px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .details-container{
+        width: auto;
+    }
 }

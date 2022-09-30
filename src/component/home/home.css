@@ -8,6 +8,9 @@
     background-repeat: no-repeat;
   	background-size: 100% 100%;
   	margin-top:50px;
+
+	  border-bottom: 1px solid #000101;
+	  padding-bottom: 2rem;
 }
 
 .homeContentContainer{

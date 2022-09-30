@@ -1,7 +1,7 @@
 .menuContainer{
     display: flex;
     width: 100vw;
-    background-color: #fff;
+    background-color: #000101;
     position: fixed;
     top: 0;
     box-shadow: 0 8px 6px -6px #FEEEE9;
@@ -41,6 +41,7 @@
 .menuContent li{
     margin-left: 30px;
     cursor: pointer;
+    color: #fff;
 }
   
 .rightContainer li:after {

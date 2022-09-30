@@ -61,6 +61,19 @@ export default class MenuBar extends Component{
                         <li>
                             <Link
                                 activeClass="active"
+                                to="cert"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                Certificate
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link
+                                activeClass="active"
                                 to="hse"
                                 spy={true}
                                 smooth={true}

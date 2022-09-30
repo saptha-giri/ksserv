@@ -4,8 +4,10 @@
     justify-content: center;
     align-items: center;
 
-    height: 99vh;
+    /* height: 99vh; */
     background-color: #fff;
+    border-bottom: 1px solid #000101;
+    padding-bottom: 2rem;
 }
 
 .expContent{

@@ -1,12 +1,14 @@
 .hseContainer{
     display: flex;
     /* flex: 1; */
-    height:99vh;
+    /* height:99vh; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
     /*background-color: #f0f0f0; */
     /* border: 1px solid; */
+    border-bottom: 1px solid #000101;
+    padding-bottom: 2rem;
 }
 
 

@@ -4,8 +4,10 @@
     justify-content: center;
     align-items: center;
 
-    height:99vh;
+    /* height:99vh; */
     background-color: #fff;
+    border-bottom: 1px solid #000101;
+    padding-bottom: 2rem;
 }
 
 .missionContent{
@@ -62,3 +64,33 @@
     /* font-size: .9rem; */
     color: #9B9B9B;
 }
+
+/* @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .missiLeft img{
+        width: 10%;
+    }
+} */
+@media only screen and (max-device-width: 1024px) {
+
+    .missions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .missiLeft{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex:1;
+    }
+
+    .missiLeft img{
+        width: 80%;
+        height: 30rem;
+    }
+
+    .missi{
+        flex:1
+    }
+  }
