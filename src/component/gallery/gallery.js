@@ -2,8 +2,8 @@ import React from 'react';
 
 import './gallery.css';
 
-import img1 from '../../assets/KS Gallery/1.jpg';
-import img2 from '../../assets/KS Gallery/2.png';
+import img1 from '../../assets/KS Gallery/001.jpg';
+import img2 from '../../assets/KS Gallery/002.jpg';
 import img3 from '../../assets/KS Gallery/3.jpg';
 import img4 from '../../assets/KS Gallery/4.jpg';
 import img5 from '../../assets/KS Gallery/5.jpg';

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './mission.css';
-import img from '../../assets/vision.jpg'
+import img from '../../assets/3.png';
 
 const Mission = (props)=>{
     return(

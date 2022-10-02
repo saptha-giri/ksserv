@@ -2,15 +2,16 @@
 .homeContainer{
     display: flex;
     flex: 1;
-    height:90vh;
+    height:99vh;
     background-color: #f0f0f0;
-    background-image: url("../../assets/header.jpg");
+    background-image: url("../../assets/2.png");
     background-repeat: no-repeat;
   	background-size: 100% 100%;
   	margin-top:50px;
 
-	  border-bottom: 1px solid #000101;
-	  padding-bottom: 2rem;
+	border-bottom: 1px solid #000101;
+	padding-bottom: 2rem;
+	color: #027F3D;
 }
 
 .homeContentContainer{
@@ -34,7 +35,8 @@
 
 .left h1{
 	text-transform:uppercase;
-	color: #7E3838;
+	/* color: #7E3838; */
+	color: #027F3D;
 }
 
 .left p{

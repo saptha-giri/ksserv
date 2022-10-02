@@ -3,12 +3,13 @@
     /* flex: 1 1; */
     justify-content: flex-end;
     align-items: center;
-    background-color: #F0F0F0;
+    background-color: #000101;
     height: 10vh;
 }
 
 .footer p{
-    margin-right: 2rem;;
+    margin-right: 2rem;
+    color: #fff;
 }
 
 .powered{

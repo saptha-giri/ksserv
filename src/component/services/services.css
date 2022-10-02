@@ -1,13 +1,15 @@
 .expContainer{
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     justify-content: center;
     align-items: center;
 
     /* height: 99vh; */
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #FCD450;
     border-bottom: 1px solid #000101;
     padding-bottom: 2rem;
+    color: #027F3D;
 }
 
 .expContent{
@@ -16,14 +18,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
     
     /* margin-top: 50px;
     margin-bottom: 50px; */
 }
 
 .expContent p{
-    color:#9b9b9b;
+    /* color:#9b9b9b; */
     /* font-size: 15px; */
 }
 
@@ -31,18 +33,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex: 1 1;
+    /* flex: 1 1; */
     /* width:65vw; */
 }
 
 .expe{
     /*border: 1px solid #fff;*/
-    padding: 15px;
-    width: 40vw;
+    padding: 2rem;
+    /* width: 40vw; */
     /*margin: 10px;*/
     /*margin-bottom: 20px;*/
     /*border-radius: 15px;*/
     /*background: #fff;*/
+    /* border: 1px solid; */
 }
 
 .expe-heading{
@@ -52,5 +55,5 @@
 .expe-list{
     line-height: 1.8rem;
     font-size: 1rem;
-    color: #9B9B9B;
+    /* color: #9B9B9B; */
 }

@@ -5,9 +5,11 @@
     align-items: center;
 
     /* height:99vh; */
-    background-color: #fff;
+    /* background-color: #fff; */
     border-bottom: 1px solid #000101;
     padding-bottom: 2rem;
+    background-color: #FCD450;
+    color: #027F3D;
 }
 
 .missionContent{
@@ -60,9 +62,9 @@
 }
 
 .missi-list{
-    line-height: 1.5;
+    line-height: 1.5rem;
     /* font-size: .9rem; */
-    color: #9B9B9B;
+    /* color: #9B9B9B; */
 }
 
 /* @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
@@ -86,8 +88,12 @@
     }
 
     .missiLeft img{
-        width: 80%;
+        width: 100%;
         height: 30rem;
+    }
+
+    .missi-list{
+        line-height: 1.3rem;
     }
 
     .missi{

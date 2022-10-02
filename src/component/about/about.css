@@ -2,11 +2,11 @@
 .aboutContainer{
     display: flex;
     /* flex: 1; */
-    /* height:99vh; */
+    height:99vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /*background-color: #f0f0f0; */
+    background-color: #FCD450;
      /*border: 1px solid; */
      border-bottom: 1px solid #000101;
      padding-bottom: 2rem;
@@ -15,7 +15,7 @@
 
 .aboutContentContainer{
     display: flex;
-    /* flex:1; */
+    flex:1;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
@@ -30,13 +30,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    color: #027F3D;
+    margin-left: 4rem;
+    margin-right: 4rem;
     /* border: 1px solid; */
 }
 
 .aboutRightContainer{
     display: flex;
-    flex:1;
+    flex:2;
     flex-direction: column;
     justify-content: center;
 
@@ -45,8 +47,9 @@
 
 .aboutRightContainer p{
     /* width:30vw; */
-    padding-right: 80px;
-    color:#9b9b9b;
+    /* padding-right: 80px; */
+    /* color:#9b9b9b; */
+    color: #027F3D;
 }
 
 .chart{
@@ -76,7 +79,8 @@
 .chart span{
     margin:0 1em;
     display: block;
-    background: #FFB53C;
+    /* background: #FFB53C; */
+    background: #027F3D;
     animation: draw 1s ease-in-out;
     font-size: 12px;
 }
@@ -107,8 +111,11 @@
     margin-top: 5rem;
   }
 
-  /* @media only screen and (max-device-width: 1024px) {
-    .aboutContainer{
-      margin-top: 4rem;
+  @media only screen and (max-device-width: 1024px) {
+    .aboutContentContainer{
+      flex-wrap: wrap;
     }
-  } */
+    .aboutRightContainer p{
+      line-height: 1.5rem;
+    }
+  }
